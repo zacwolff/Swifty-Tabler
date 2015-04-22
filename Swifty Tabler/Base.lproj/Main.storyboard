@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DASHBOARD" textLabel="dGX-EZ-mqL" style="IBUITableViewCellStyleDefault" id="R0z-A4-OBh">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DASHBOARD" textLabel="dGX-EZ-mqL" imageView="tdL-vp-XzJ" style="IBUITableViewCellStyleDefault" id="R0z-A4-OBh">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R0z-A4-OBh" id="ag7-Ub-pH4">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -24,6 +24,9 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="barchart" id="tdL-vp-XzJ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -212,4 +215,7 @@
             <point key="canvasLocation" x="743" y="110"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="barchart" width="42" height="42"/>
+    </resources>
 </document>

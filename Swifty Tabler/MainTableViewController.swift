@@ -64,7 +64,7 @@ class MainTableViewController: UITableViewController {
         Selected cell/row background colour
         */
         var selectedCell:UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
-        selectedCell.contentView.backgroundColor = UIColor(red:0, green:0.71, blue:0.43, alpha:1)
+        selectedCell.contentView.backgroundColor = UIColor(red:0.15, green:0.75, blue:0.51, alpha:1)
 
         var selectedTextColour:UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
         selectedTextColour.textLabel?.highlightedTextColor = UIColor.whiteColor()
