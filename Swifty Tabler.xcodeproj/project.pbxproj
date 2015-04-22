@@ -13,6 +13,7 @@
 		5EAF99571AE6D1A10016FEF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAF99561AE6D1A10016FEF1 /* Images.xcassets */; };
 		5EAF995A1AE6D1A10016FEF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAF99581AE6D1A10016FEF1 /* LaunchScreen.xib */; };
 		5EAF99661AE6D1A10016FEF1 /* Swifty_TablerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF99651AE6D1A10016FEF1 /* Swifty_TablerTests.swift */; };
+		5EAF99701AE6D1E00016FEF1 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF996F1AE6D1E00016FEF1 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5EAF995F1AE6D1A10016FEF1 /* Swifty TablerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifty TablerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAF99641AE6D1A10016FEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EAF99651AE6D1A10016FEF1 /* Swifty_TablerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_TablerTests.swift; sourceTree = "<group>"; };
+		5EAF996F1AE6D1E00016FEF1 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5EAF994F1AE6D1A10016FEF1 /* AppDelegate.swift */,
 				5EAF99511AE6D1A10016FEF1 /* ViewController.swift */,
+				5EAF996F1AE6D1E00016FEF1 /* MainTableViewController.swift */,
 				5EAF99531AE6D1A10016FEF1 /* Main.storyboard */,
 				5EAF99561AE6D1A10016FEF1 /* Images.xcassets */,
 				5EAF99581AE6D1A10016FEF1 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EAF99521AE6D1A10016FEF1 /* ViewController.swift in Sources */,
+				5EAF99701AE6D1E00016FEF1 /* MainTableViewController.swift in Sources */,
 				5EAF99501AE6D1A10016FEF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
